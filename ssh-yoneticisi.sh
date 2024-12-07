@@ -7,7 +7,7 @@ NC='\033[0m'
 
 if [ "$EUID" -ne 0 ]; then 
     echo -e "${RED}Bu script root yetkisi gerektirmektedir.${NC}"
-    echo "Lütfen 'sudo' ile çalıştırın."
+    echo "Lütfen 'sudo' ile birlikte çalıştırın."
     exit 1
 fi
 
